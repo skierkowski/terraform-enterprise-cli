@@ -23,7 +23,7 @@ module TerraformEnterprise
       end
 
       def error(message)
-        puts message.red
+        puts "Error: #{message}".red
       end
 
       def success(message)
@@ -52,7 +52,7 @@ module TerraformEnterprise
         obj.errors.each do |error|
           message = error['detail'] || error['title'] || error.to_s
           code    = error['status'] || obj.code
-          error "Error (#{code}): #{message}"
+          error "[#{code}] #{message}"
         end
         exit(false)
       end
