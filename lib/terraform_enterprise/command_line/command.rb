@@ -19,9 +19,9 @@ module TerraformEnterprise
       class_option :color, type: :boolean, default: true, desc: CMD_STR[:color]
       class_option :except, type: :array, desc: CMD_STR[:except]
       class_option :only, type: :array, desc: CMD_STR[:only]
-      class_option :all, type: :boolean, default: false, desc: CMD_STR[:all]
-      class_option :value, type: :boolean, default: false, desc: CMD_STR[:value]
-      class_option :debug, type: :boolean, default: false, desc: CMD_STR[:debug]
+      class_option :all, type: :boolean, desc: CMD_STR[:all]
+      class_option :value, type: :boolean, desc: CMD_STR[:value]
+      class_option :debug, type: :boolean, desc: CMD_STR[:debug]
 
       no_commands do
         def render(obj, default_options = {})
