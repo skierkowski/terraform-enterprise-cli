@@ -16,7 +16,7 @@ module TerraformEnterprise
 
       class_option :host, type: :string, desc: CMD_STR[:host]
       class_option :token, type: :string, desc: CMD_STR[:token]
-      class_option :color, type: :boolean, default: true, desc: CMD_STR[:color]
+      class_option :color, type: :boolean, desc: CMD_STR[:color]
       class_option :except, type: :array, desc: CMD_STR[:except]
       class_option :only, type: :array, desc: CMD_STR[:only]
       class_option :all, type: :boolean, desc: CMD_STR[:all]

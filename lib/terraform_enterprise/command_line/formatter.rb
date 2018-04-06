@@ -9,7 +9,10 @@ module TerraformEnterprise
     # Module with render method to render the Resource object
     class Formatter
       def render(obj, options = {})
-        String.disable_colorization = !options[:color]
+        
+        if options.include?(:color)
+          String.disable_colorization = !options[:color]
+        end
 
         if !obj.is_a?(TerraformEnterprise::API::Response)
           unkown_response(obj)
