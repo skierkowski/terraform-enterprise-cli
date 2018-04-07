@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.require_paths         = %w[ lib ]
   gem.extra_rdoc_files      = ['LICENSE', 'README.md']
 
-  gem.add_dependency 'terraform-enterprise-client', '~> 0.0', '>= 0.0.7'
+  gem.add_dependency 'terraform-enterprise-client', '~> 0.0', '>= 0.0.8'
   gem.add_dependency 'colorize', '~> 0.8', '>= 0.8.1'
   gem.add_dependency 'thor', '~> 0.20', '>= 0.20.0'
   gem.add_dependency 'terminal-table', '~> 1.8', '>= 1.8.0'
