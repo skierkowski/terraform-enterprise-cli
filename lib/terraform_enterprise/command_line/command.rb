@@ -1,3 +1,4 @@
+require 'thor'
 require 'json'
 require 'terraform-enterprise-client'
 
