@@ -21,6 +21,10 @@ This gem depends on these other gems for usage at runtime:
 
 Installing the gem `terraform-enterprise-cli` gem installs the `tfe` command line tool. Running `tfe help` provides the help information and list of available subcomands.
 
+## Releases
+
+All releases and changelogs are available as [Releases/Tags](https://github.com/skierkowski/terraform-enterprise-cli/releases).
+
 ## Usage
 
 All of the resources, actions and paraeters are documented in the tool and available through the `help` subcommand.
