@@ -34,13 +34,27 @@ All of the resources, actions and paraeters are documented in the tool and avail
 ```shell
 ➭ tfe help
 Commands:
-  tfe configuration_versions <subcommand>  # Manage configuration versions
-  tfe help [COMMAND]                       # Describe available commands or one specific command
-  tfe oauth_tokens <subcommand>            # Manage OAuth tokens
-  tfe organizations <subcommand>           # Manage organizations
-  tfe teams <subcommand>                   # Manage teams
-  tfe variables <subcommand>               # Manage variables
-  tfe workspaces <subcommand>              # Manage workspaces
+  tfe configuration-versions <subcommand>          # Manage configuration versions
+  tfe help [COMMAND]                               # Describe available commands or one specific command
+  tfe oauth-tokens <subcommand>                    # Manage OAuth tokens
+  tfe organizations <subcommand>                   # Manage organizations
+  tfe policies <subcommand>                        # Manage policies
+  tfe policy-checks <subcommand>                   # Manage policy checks
+  tfe push <organization>/<workspace> --path=PATH  # Pushes the configuration to the workspace
+  tfe runs <subcommand>                            # Manage runs
+  tfe teams <subcommand>                           # Manage teams
+  tfe variables <subcommand>                       # Manage variables
+  tfe workspaces <subcommand>                      # Manage workspaces
+
+Options:
+  [--host=HOST]             # Set host address for private Terraform Enterprise
+  [--token=TOKEN]           # Set the auth token, defaults to TFE_TOKEN environment variable
+  [--color], [--no-color]   # If disabled the ANSI color codes will not be used
+  [--except=one two three]  # List of fields that should not be displayed
+  [--only=one two three]    # List of fields that should be displayed
+  [--all], [--no-all]       # Return all fields, not just summary
+  [--value], [--no-value]   # Only return the value; i.e. do not show keys
+  [--debug], [--no-debug]   # Show debug logs
 ```
 
 ## Authentication
