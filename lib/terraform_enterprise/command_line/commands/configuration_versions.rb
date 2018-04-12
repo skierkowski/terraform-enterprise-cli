@@ -26,9 +26,10 @@ module TerraformEnterprise
           render client.configuration_versions.get(id: id)
         end
 
-        desc 'upload <path> <upload-url>', CMD_STR[:upload]
-        def upload(path, url)
-          content = tarball(path)
+        desc 'upload <upload-url>', CMD_STR[:upload]
+        option :path, default: '.', type: :string, desc: ATTR_STR[:path]
+        def upload(url)
+          content = tarball(options[:path])
           params  = { content: content, url: url }
 
           render client.configuration_versions.upload(params)

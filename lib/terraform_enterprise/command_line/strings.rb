@@ -47,7 +47,7 @@ module TerraformEnterprise
       configuration_versions: {
         attributes: {
           workspace_id: 'Workspace ID of the workspace to which the configuration version belongs to.',
-          path: 'Path to the tar.gz file'
+          path: 'Path of directory or tar.gz file to push to the workspace'
         },
         commands: {
           create: 'Create a new configuration version',
