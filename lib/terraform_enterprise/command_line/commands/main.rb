@@ -74,6 +74,11 @@ module TerraformEnterprise
           upload_params = { content: content, url: upload_url }
           render client.configuration_versions.upload(upload_params)
         end
+
+        desc 'version', STRINGS[:version][:commands][:version]
+        def version
+          puts "Terraform Enterprise CLI #{VERSION}"
+        end
       end
     end
   end

@@ -22,6 +22,11 @@ module TerraformEnterprise
           push: 'Pushes the configuration to the workspace'
         }
       },
+      version: {
+        commands: {
+          version: 'Show current version'
+        }
+      },
       workspaces: {
         attributes: {
           terraform_version: 'Version of Terraform to use for this workspace.',
