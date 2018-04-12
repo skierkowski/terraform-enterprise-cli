@@ -1,4 +1,5 @@
 require 'terraform_enterprise/command_line/command'
+require 'terraform_enterprise/command_line/version'
 
 require_relative 'configuration_versions'
 require_relative 'oauth_tokens'
@@ -77,7 +78,7 @@ module TerraformEnterprise
 
         desc 'version', STRINGS[:version][:commands][:version]
         def version
-          puts "Terraform Enterprise CLI #{VERSION}"
+          puts "Terraform Enterprise CLI #{TerraformEnterprise::CommandLine::VERSION}"
         end
       end
     end

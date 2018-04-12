@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    terraform-enterprise-cli (0.0.9)
+    terraform-enterprise-cli (0.0.10)
       colorize (~> 0.8, >= 0.8.1)
       terminal-table (~> 1.8, >= 1.8.0)
       terraform-enterprise-client (~> 0.0, >= 0.0.8)
