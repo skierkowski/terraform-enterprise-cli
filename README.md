@@ -9,7 +9,7 @@ A simple command line tool for the [Terraform Enterprise API](https://www.terraf
 
 ***
 
-**This is a community project and not support by HashiCorp.** Please use the [hashicorp/tfe-cli](https://github.com/hashicorp/tfe-cli) if you require a HashiCorp supported CLI client for Terraform Enterprise. This project is maintained and community supported.
+**This is a community project and not support by HashiCorp.** Please use the [hashicorp/tfe-cli](https://github.com/hashicorp/tfe-cli) if you require a HashiCorp supported CLI client for Terraform Enterprise. This project is maintained and supported by the community.
 
 ***
 
