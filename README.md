@@ -7,6 +7,12 @@ A simple command line tool for the [Terraform Enterprise API](https://www.terraf
 [![Test Coverage](https://api.codeclimate.com/v1/badges/1fd90e8dda31d1d402e8/test_coverage)](https://codeclimate.com/github/skierkowski/terraform-enterprise-cli/test_coverage)
 [![Dependency Status](https://gemnasium.com/badges/github.com/skierkowski/terraform-enterprise-cli.svg)](https://gemnasium.com/github.com/skierkowski/terraform-enterprise-cli)
 
+***
+
+**This is a community project and not support by HashiCorp.** Please use the [hashicorp/tfe-cli](https://github.com/hashicorp/tfe-cli) if you require a HashiCorp supported CLI client for Terraform Enterprise. This project is maintained and community supported.
+
+***
+
 ## Requirements
 
 MRI Ruby 2.3 and newer are supported. Alternative interpreters compatible with 2.3+ should work as well.
