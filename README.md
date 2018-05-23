@@ -5,7 +5,6 @@ A simple command line tool for the [Terraform Enterprise API](https://www.terraf
 [![Gem Version](https://badge.fury.io/rb/terraform-enterprise-cli.svg)](https://badge.fury.io/rb/terraform-enterprise-cli)
 [![Maintainability](https://api.codeclimate.com/v1/badges/1fd90e8dda31d1d402e8/maintainability)](https://codeclimate.com/github/skierkowski/terraform-enterprise-cli/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/1fd90e8dda31d1d402e8/test_coverage)](https://codeclimate.com/github/skierkowski/terraform-enterprise-cli/test_coverage)
-[![Dependency Status](https://gemnasium.com/badges/github.com/skierkowski/terraform-enterprise-cli.svg)](https://gemnasium.com/github.com/skierkowski/terraform-enterprise-cli)
 
 ***
 
@@ -27,6 +26,10 @@ This gem depends on these other gems for usage at runtime:
 ## Installation
 
 Installing the gem `terraform-enterprise-cli` gem installs the `tfe` command line tool. Running `tfe help` provides the help information and list of available subcomands.
+
+```bash
+gem install terraform-enterprise-cli
+```
 
 ## Releases
 
